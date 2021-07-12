@@ -1,0 +1,17 @@
+{
+  "name": "wrong_song",
+  "version": "1.0.0",
+  "description": "Song guesser",
+  "main": "index.js",
+  "author": "Ayush Shrestha <ayush_2000@yahoo.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.20",
+    "requests": "^0.3.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
+}
